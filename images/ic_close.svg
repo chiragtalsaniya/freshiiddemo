@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="31px" viewBox="0 0 31 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>38F149E0-EAC5-4604-8B44-08101DD665A6</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M0.229444444,0.202777778 C-0.0405555556,0.473333333 -0.0405555556,0.905 0.229444444,1.14888889 L4.06777778,5.01388889 L0.202777778,8.85111111 C-0.0677777778,9.12166667 -0.0677777778,9.55444444 0.202777778,9.79722222 C0.473333333,10.0677778 0.905555556,10.0677778 1.14833333,9.79722222 L5.01333333,5.95944444 L8.85166667,9.79722222 C9.12166667,10.0677778 9.55388889,10.0677778 9.79722222,9.79722222 C10.0405556,9.52666667 10.0677778,9.095 9.79722222,8.85111111 L5.95888889,5.01388889 L9.79722222,1.17555556 C10.0677778,0.905 10.0677778,0.473333333 9.79722222,0.23 C9.55388889,-0.0405555556 9.12166667,-0.0405555556 8.85166667,0.202777778 L5.01333333,4.06777778 L1.17555556,0.202777778 C1.04055556,0.0677777778 0.865,0 0.692777778,0 C0.52,0 0.351111111,0.0677777778 0.229444444,0.202777778 Z" id="path-1"></path>
+    </defs>
+    <g id="corporate-site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="M1-Main-Navigation-corporate-2" transform="translate(-212.000000, -11.000000)">
+            <g id="Close" transform="translate(206.000000, 5.000000)">
+                <g id="Group-7">
+                    <circle id="Oval-Copy-6" fill="#007336" transform="translate(21.629703, 21.720103) rotate(-315.000000) translate(-21.629703, -21.720103) " cx="21.629703" cy="21.7201028" r="15"></circle>
+                    <g id="Group-3" transform="translate(22.000000, 22.000000) rotate(-270.000000) translate(-22.000000, -22.000000) translate(17.000000, 17.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Clip-2" fill="#FFFFFF" xlink:href="#path-1"></use>
+                        <polygon id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)" points="-2.77777778 12.7777778 12.7777778 12.7777778 12.7777778 -2.77777778 -2.77777778 -2.77777778"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

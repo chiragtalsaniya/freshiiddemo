@@ -1,0 +1,123 @@
+:root{
+    --box-shadow: 0.5rem 1.5 rem rgba(0,0,0,1);
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 60%;
+    overflow: auto;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+}
+
+
+header{
+    position: fixed;
+    top: 0;left: 0;right: 0;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 7%;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+}
+
+
+
+header .navbar a{
+    font-size: 1.7rem;
+    border-radius: 0.5rem;
+    padding: .5rem 1.5rem;
+    color: #459c71;
+}
+
+header .navbar a.active,
+header .navbar a:hover{
+    background-color: #459c71;
+    color:white;
+}
+
+
+header .navbar.active{
+    clip-path: polygon(0 0,100% 0,100% 100%,0% 100%);
+}
+
+header .icons i,
+header .icons a{
+    cursor: pointer;
+    font-size: 1.7rem;
+    width: 4.5rem;
+    text-align: center;
+    line-height: 4.5rem;
+    margin-left: 0.5rem;
+    border-radius: 50%;
+    color: #459c71;
+}
+
+
+header .icons i:hover,
+header .icons a:hover{
+    color: white;
+    background-color: #459c71;
+    transform: rotate(360deg);
+}
+
+header .icons #menu-bar{
+    display: none;
+}
+
+
+
+
+
+@media (max-width : 1024px){
+
+        
+    html{
+        font-size: 50%;
+    }
+
+    header {
+        padding: 1rem 2rem;
+    }
+}
+
+
+
+@media (max-width : 780px){
+
+    header .icons #menu-bar{
+        display: inline-block;
+    }
+    
+    header .navbar {
+        position: absolute;
+        top: 100%;right: 0;left: 0;
+        background: white;
+        border-top: 1rem  solid rgba(0,0,0,.2);
+        border-bottom: 1rem  solid rgba(0,0,0,.2);
+        padding: 1rem;
+        clip-path: polygon(0 0,100% 0,100% 0,0 0);
+    }
+    
+    header .navbar a{
+        display: block;
+        padding: 2rem;
+        margin: 1rem;
+        font-size: 2rem;
+        background: #eee;
+    }
+}
